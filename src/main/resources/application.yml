@@ -13,6 +13,3 @@ spring:
   messages:
     encoding: UTF-8
     basename: i18n/messages
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
