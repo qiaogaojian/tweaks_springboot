@@ -7,9 +7,14 @@ server:
       force: true
   undertow:
     url-charset: UTF-8
+    
 spring:
   profiles:
     active: dev
   messages:
     encoding: UTF-8
     basename: i18n/messages
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
