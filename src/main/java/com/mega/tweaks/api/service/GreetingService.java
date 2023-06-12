@@ -10,14 +10,8 @@ import java.util.concurrent.atomic.AtomicLong;
 @Service
 public class GreetingService
 {
-
     private static final String     template = "Hello, %s!";
     private final        AtomicLong counter  = new AtomicLong();
-
-    @Autowired
-    public GreetingService() {
-
-    }
 
     public GreetingVO getGreeting(String name) {
         GreetingVO greeting = new GreetingVO();
