@@ -43,7 +43,7 @@ tasks.named('test') {
 apply plugin: "com.arenagod.gradle.MybatisGenerator"
 configurations {
     mybatisGenerator
-    compile.exclude module: 'spring-boot-starter-logging'
+//    compile.exclude module: 'spring-boot-starter-logging'
 }
 mybatisGenerator {
     verbose = true
