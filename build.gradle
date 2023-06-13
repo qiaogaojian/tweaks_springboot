@@ -35,6 +35,8 @@ dependencies {
     mybatisGenerator 'org.freemarker:freemarker:2.3.31'
     mybatisGenerator 'mysql:mysql-connector-java'
 
+    // mongodb
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 }
 
 apply plugin: "com.arenagod.gradle.MybatisGenerator"
