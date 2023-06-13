@@ -1,9 +1,11 @@
 spring:
+  # mysql
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://coder.53site.com:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&cachePrepStmts=true&prepStmtCacheSize=256&prepStmtCacheSqlLimit=2048&useServerPrepStmts=true&useLocalSessionState=true&rewriteBatchedStatements=true&cacheResultSetMetadata=true&cacheServerConfiguration=true&elideSetAutoCommits=true&maintainTimeStats=false&zeroDateTimeBehavior=convertToNull
     username: admin
     password: Mangosteen0!
+  # mongodb
   data:
     mongodb:
       uri: mongodb://112.124.15.145:27117/test?maxPoolSize=500&minPoolSize=10
