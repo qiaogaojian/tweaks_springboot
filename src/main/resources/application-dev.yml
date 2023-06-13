@@ -7,3 +7,22 @@ spring:
   data:
     mongodb:
       uri: mongodb://112.124.15.145:27117/test?maxPoolSize=500&minPoolSize=10
+  redis:
+    db0:
+      host: 112.124.15.145
+      port: 6379
+      database: 0
+      password: LA1954b!
+    db3:
+      host: 112.124.15.145
+      port: 6379
+      database: 3
+      password: LA1954b!
+    db8:
+      host: 112.124.15.145
+      port: 6379
+      database: 8
+      password: LA1954b!
+
+metabus:
+  node_role: "master"

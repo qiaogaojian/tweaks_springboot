@@ -39,4 +39,12 @@ public class NoteController
     public Result<NoteVO> getAllNote() {
         return Results.success(this.noteService.getAllNote());
     }
+
+    @ApiOperation("获取笔记数量")
+    @GetMapping("/note/count")
+    public Result<Integer> getNoteNum() {
+        return Results.success(this.noteService.getNoteNum());
+    }
+
+
 }
