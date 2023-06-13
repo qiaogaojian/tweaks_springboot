@@ -32,12 +32,17 @@
         </plugin>
 
         <!-- 配置数据库连接信息 -->
-        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver" connectionURL="jdbc:mysql://coder.53site.com:3306/test" userId="admin" password="Mangosteen0!"></jdbcConnection>
-
-        <!-- 配置 Java 模型和主键生成策略 -->
-        <javaModelGenerator targetPackage="com.mega.tweaks.api.model.entity" targetProject="src/main/java"></javaModelGenerator>
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://coder.53site.com:3306/test"
+                        userId="admin"
+                        password="Mangosteen0!">
+        </jdbcConnection>
 
         <!-- 配置要生成的表和对应的 DAO、Model 的位置 -->
+        <javaModelGenerator targetPackage="com.mega.tweaks.api.model.entity"
+                            targetProject="src/main/java">
+        </javaModelGenerator>
+
         <table tableName="test_user">
             <generatedKey column="id" sqlStatement="mysql" />
         </table>
