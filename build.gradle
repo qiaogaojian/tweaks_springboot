@@ -48,5 +48,5 @@ mybatisGenerator {
     verbose = true
     configFile = 'src/main/resources/generatorConfig.xml'
 }
-
+// 解决 gradle 不编译 mybatis 的 xml 文件的问题
 sourceSets.main.resources.srcDirs = ["src/main/java", "src/main/resources"]
