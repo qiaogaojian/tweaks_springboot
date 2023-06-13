@@ -1,8 +1,8 @@
-package com.mega.tweaks.api.service;
+package com.mega.tweaks.service;
 
-import com.mega.tweaks.api.model.dao.TestUserDao;
-import com.mega.tweaks.api.model.entity.TestUser;
-import com.mega.tweaks.api.model.vo.UserVO;
+import com.mega.tweaks.model.dao.TestUserDao;
+import com.mega.tweaks.model.entity.TestUser;
+import com.mega.tweaks.model.vo.UserVO;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

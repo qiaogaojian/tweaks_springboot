@@ -1,9 +1,9 @@
-package com.mega.tweaks.api.controller;
+package com.mega.tweaks.controller;
 
-import com.mega.tweaks.api.model.vo.GreetingVO;
-import com.mega.tweaks.api.model.vo.Result;
-import com.mega.tweaks.api.model.vo.Results;
-import com.mega.tweaks.api.service.GreetingService;
+import com.mega.tweaks.model.vo.GreetingVO;
+import com.mega.tweaks.model.vo.Result;
+import com.mega.tweaks.model.vo.Results;
+import com.mega.tweaks.service.GreetingService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,6 +1,6 @@
-package com.mega.tweaks.api.model.vo;
+package com.mega.tweaks.model.vo;
 
-import com.mega.tweaks.api.model.entity.TestUser;
+import com.mega.tweaks.model.entity.TestUser;
 
 import java.util.List;
 

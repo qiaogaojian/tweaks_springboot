@@ -1,7 +1,7 @@
-package com.mega.tweaks.api.model.vo;
+package com.mega.tweaks.model.vo;
 
 
-import com.mega.tweaks.api.util.SpringUtils;
+import com.mega.tweaks.util.SpringUtils;
 
 import lombok.Getter;
 

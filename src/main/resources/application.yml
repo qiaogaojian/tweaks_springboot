@@ -17,6 +17,6 @@ spring:
 
 mybatis:
 #  mapper-locations: classpath*:com/mega/tweaks/api/model/dao/*.xml
-  type-aliases-package: com.mega.tweaks.api.model.entity
+  type-aliases-package: com.mega.tweaks.model.entity
   configuration:
     map-underscore-to-camel-case: true

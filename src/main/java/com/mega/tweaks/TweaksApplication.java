@@ -8,7 +8,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 @ConfigurationPropertiesScan
-@MapperScan({"com.mega.tweaks.api.model.mapper","com.mega.tweaks.api.model.dao"})
+@MapperScan({"com.mega.tweaks.model.mapper","com.mega.tweaks.model.dao"})
 public class TweaksApplication
 {
     public static void main(String[] args) {

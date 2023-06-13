@@ -1,4 +1,4 @@
-package com.mega.tweaks.api.model.entity;
+package com.mega.tweaks.model.entity;
 
 import javax.persistence.*;
 

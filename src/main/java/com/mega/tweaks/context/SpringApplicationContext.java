@@ -1,6 +1,6 @@
-package com.mega.tweaks.api.context;
+package com.mega.tweaks.context;
 
-import com.mega.tweaks.api.util.SpringUtils;
+import com.mega.tweaks.util.SpringUtils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

@@ -18,7 +18,7 @@
 
         <plugin type="tk.mybatis.mapper.generator.TemplateFilePlugin">
             <property name="targetProject" value="src/main/java" />
-            <property name="targetPackage" value="com.mega.tweaks.api.model.mapper" />
+            <property name="targetPackage" value="com.mega.tweaks.model.mapper" />
             <property name="templatePath" value="file:src/main/resources/mapper.ftl" />
             <property name="mapperSuffix" value="Mapper" />
             <property name="fileName" value="${tableClass.shortClassName}${mapperSuffix}.java" />
@@ -39,7 +39,7 @@
         </jdbcConnection>
 
         <!-- 配置要生成的表和对应的 DAO、Model 的位置 -->
-        <javaModelGenerator targetPackage="com.mega.tweaks.api.model.entity"
+        <javaModelGenerator targetPackage="com.mega.tweaks.model.entity"
                             targetProject="src/main/java">
         </javaModelGenerator>
 

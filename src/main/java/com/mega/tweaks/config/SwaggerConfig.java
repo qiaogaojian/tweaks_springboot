@@ -1,4 +1,4 @@
-package com.mega.tweaks.api.config;
+package com.mega.tweaks.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

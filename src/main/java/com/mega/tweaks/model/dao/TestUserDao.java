@@ -1,6 +1,6 @@
-package com.mega.tweaks.api.model.dao;
+package com.mega.tweaks.model.dao;
 
-import com.mega.tweaks.api.model.entity.TestUser;
+import com.mega.tweaks.model.entity.TestUser;
 
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;

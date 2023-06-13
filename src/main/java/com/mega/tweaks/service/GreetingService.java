@@ -1,8 +1,7 @@
-package com.mega.tweaks.api.service;
+package com.mega.tweaks.service;
 
-import com.mega.tweaks.api.model.vo.GreetingVO;
+import com.mega.tweaks.model.vo.GreetingVO;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.atomic.AtomicLong;

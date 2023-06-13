@@ -1,6 +1,6 @@
-package com.mega.tweaks.api.model.vo;
+package com.mega.tweaks.model.vo;
 
-import com.mega.tweaks.api.exception.BaseException;
+import com.mega.tweaks.exception.BaseException;
 
 public class Results
 {

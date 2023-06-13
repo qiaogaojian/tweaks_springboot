@@ -1,6 +1,6 @@
-package com.mega.tweaks.api.exception;
+package com.mega.tweaks.exception;
 
-import com.mega.tweaks.api.model.vo.ResultCode;
+import com.mega.tweaks.model.vo.ResultCode;
 
 import lombok.Getter;
 

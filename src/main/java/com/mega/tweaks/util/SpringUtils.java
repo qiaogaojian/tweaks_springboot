@@ -1,4 +1,4 @@
-package com.mega.tweaks.api.util;
+package com.mega.tweaks.util;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.MessageSource;

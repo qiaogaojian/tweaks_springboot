@@ -1,4 +1,4 @@
-package com.mega.tweaks.api.model.vo;
+package com.mega.tweaks.model.vo;
 
 import lombok.Data;
 
