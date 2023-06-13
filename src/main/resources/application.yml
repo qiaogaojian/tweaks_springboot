@@ -7,7 +7,7 @@ server:
       force: true
   undertow:
     url-charset: UTF-8
-    
+
 spring:
   profiles:
     active: dev
@@ -16,5 +16,7 @@ spring:
     basename: i18n/messages
 
 mybatis:
+#  mapper-locations: classpath*:com/mega/tweaks/api/model/dao/*.xml
+  type-aliases-package: com.mega.tweaks.api.model.entity
   configuration:
     map-underscore-to-camel-case: true
