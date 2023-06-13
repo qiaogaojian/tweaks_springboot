@@ -1,7 +1,6 @@
 package com.mega.tweaks.model.entity;
 
 import javax.persistence.*;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,8 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TestUser
-{
+public class TestUser {
     /**
      * id
      */

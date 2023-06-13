@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
-@Api(tags = "测试")
+@Api(tags = "MySql 测试")
 @RestController
 public class UserController
 {
@@ -25,14 +25,14 @@ public class UserController
         this.userService = userService;
     }
 
-    @ApiOperation(value = "添加用户")
+    @ApiOperation("添加用户")
     @PostMapping("/user/add")
     public Result<?> addUser(@RequestParam String name, @RequestParam String email) {
         this.userService.addUsers(name, email);
         return Results.success();
     }
 
-    @ApiOperation(value = "获取用户列表")
+    @ApiOperation("获取用户列表")
     @GetMapping("/user/all")
     public Result<UserVO> getAllUser() {
         return Results.success(this.userService.getAllUsers());
