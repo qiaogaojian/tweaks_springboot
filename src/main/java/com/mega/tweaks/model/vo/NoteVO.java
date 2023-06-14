@@ -1,6 +1,6 @@
 package com.mega.tweaks.model.vo;
 
-import com.mega.tweaks.model.mongodb.NoteEntity;
+import com.mega.tweaks.mongodb.NoteEntity;
 
 import java.util.List;
 

@@ -1,7 +1,6 @@
-package com.mega.tweaks.model.mongodb;
+package com.mega.tweaks.mongodb;
 
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
 
 import java.io.Serializable;
 import java.util.Date;

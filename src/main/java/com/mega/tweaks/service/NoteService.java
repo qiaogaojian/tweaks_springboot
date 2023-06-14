@@ -1,8 +1,8 @@
 package com.mega.tweaks.service;
 
-import com.mega.tweaks.model.mongodb.NoteDao;
-import com.mega.tweaks.model.mongodb.NoteEntity;
 import com.mega.tweaks.model.vo.NoteVO;
+import com.mega.tweaks.mongodb.NoteDao;
+import com.mega.tweaks.mongodb.NoteEntity;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -44,7 +44,10 @@ public class NoteService
     }
 
     public Integer getNoteNum() {
-        Integer noteNum = Integer.parseInt(this.stringRedisTemplate0.opsForValue().get(REDIS_NOTE_COUNT));
+        int noteNum = 0;
+        if (this.stringRedisTemplate0.opsForValue().get(REDIS_NOTE_COUNT) != null) {
+            noteNum = Integer.parseInt(this.stringRedisTemplate0.opsForValue().get(REDIS_NOTE_COUNT));
+        }
         return noteNum;
     }
 }

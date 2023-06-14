@@ -1,4 +1,4 @@
-package com.mega.tweaks.model.mongodb;
+package com.mega.tweaks.mongodb;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
