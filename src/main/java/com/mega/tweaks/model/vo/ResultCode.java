@@ -9,8 +9,8 @@ import lombok.Getter;
 public enum ResultCode
 {
 
-    SUCCESS(0),
-    ERROR(1),
+    ERROR(0),
+    SUCCESS(1),
     PARAM_ERROR(4000),
     // 10000 认证相关
     // MT没有这个节点
