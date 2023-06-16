@@ -12,8 +12,11 @@ import org.springframework.stereotype.Service;
 import java.util.Date;
 import java.util.List;
 
+import lombok.extern.slf4j.Slf4j;
+
 import static com.mega.tweaks.consts.RedisKey.REDIS_NOTE_COUNT;
 
+@Slf4j
 @Service
 public class NoteService
 {
@@ -28,6 +31,7 @@ public class NoteService
     }
 
     public void addNote(String note) {
+        log.info("********************************* addNote *********************************");
         NoteEntity noteEntity = new NoteEntity();
         noteEntity.setNote_date(new Date());
         noteEntity.setNote_text(note);
@@ -37,6 +41,7 @@ public class NoteService
     }
 
     public NoteVO getAllNote() {
+        log.info("********************************* getAllNote *********************************");
         List<NoteEntity> notes  = this.noteDao.findAll();
         NoteVO           noteVO = new NoteVO();
         noteVO.setNoteList(notes);
