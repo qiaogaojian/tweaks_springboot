@@ -5,6 +5,7 @@ server:
       enabled: true
       charset: UTF-8
       force: true
+    context-path: /${spring.profiles.active}
   undertow:
     url-charset: UTF-8
 
